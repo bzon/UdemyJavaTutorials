@@ -20,7 +20,7 @@ public class Customer {
     }
 
     public void addTransaction(double amount) {
-        transactionsList.add(amount);
+        this.transactionsList.add(amount);
     }
 
     public String getName() {
